@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "wintersmith": "^2.5.0",
     "wintersmith-browserify": "*",
     "wintersmith-less": "*",
     "wintersmith-nunjucks": "*",
