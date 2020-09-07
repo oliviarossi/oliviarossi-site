@@ -5,9 +5,9 @@ Welcome to the repo which stores the code that powers [oliviarossi.org](https://
 
 This website was built using [Gatsby.js](https://www.gatsbyjs.com/) and [wintersmith](https://github.com/jnordberg/wintersmith).
 
-*_UNDER CONSTRUCTION_*
+_UNDER CONSTRUCTION_
 
-
+-------
 
 Run `npm install` to install the plugins and deps.
 
