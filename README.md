@@ -1,4 +1,4 @@
-# Olivia Rossi's portfolio
-My personal website
 
-*THIS IS A WORK IN PROGRES*
+# Blog
+
+The default [wintersmith](https://github.com/jnordberg/wintersmith) template
