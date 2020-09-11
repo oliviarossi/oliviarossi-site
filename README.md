@@ -1,9 +1,8 @@
 # Olivia Rossi's Personal Website
 
-Welcome to the repo which stores the code that powers [oliviarossi.org](https://oliviarossi.org). 
+Welcome to the repo for [oliviarossi.org](https://oliviarossi.org). 
 
-This website was built using [Gatsby.js](https://www.gatsbyjs.com/) and powered by [Netifly](https://www.netlify.com/).
-
+This website was built using [Gatsby.js](https://www.gatsbyjs.com/) and is powered by [Netifly](https://www.netlify.com/).
 Thank you to [Jacob Martinez](https://github.com/cobidev) for the starter template [Simplefolio](https://github.com/cobidev/gatsby-simplefolio).
 
 
@@ -82,11 +81,3 @@ Once your server has started, go to this url `http://localhost:8000/` and you wi
 - [React](https://es.reactjs.org/) - Front-End JavaScript library
 - [Bootstrap 4](https://getbootstrap.com/docs/4.3/getting-started/introduction/) - Front-End UI library
 - [Sass](https://sass-lang.com/documentation) - CSS extension language
-
-## Authors
-
-- **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev)
-
-## License 📄
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
