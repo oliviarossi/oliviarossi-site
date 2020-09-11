@@ -6,7 +6,7 @@ This website was built using [Gatsby.js](https://www.gatsbyjs.com/) and is power
 Thank you to [Jacob Martinez](https://github.com/cobidev) for the starter template [Simplefolio](https://github.com/cobidev/gatsby-simplefolio).
 
 
-_UNDER CONSTRUCTION_
+**_UNDER CONSTRUCTION_**
 
 
 ---
@@ -22,7 +22,7 @@ node@v10.16.0 or higher
 npm@6.9.0 or higher
 git@2.17.1 or higher
 gatsby-cli@2.8.22 or higher
-
+```
 ---
 
 ## How To Use 🔧
@@ -50,16 +50,6 @@ $ npm install
 
 # Start development server
 $ npm run develop
-```
-
-Using Yarn:
-
-```bash
-# Install dependencies
-$ yarn
-
-# Start development server
-$ yarn develop
 ```
 
 **NOTE**:
