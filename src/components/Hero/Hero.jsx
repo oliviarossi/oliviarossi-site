@@ -26,19 +26,23 @@ const Header = () => {
       <Container>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
           <h1 className="hero-title">
-            {title || 'Hi, my name is'}{' '}
-            <span className="text-color-main">{name || 'Your Name'}</span>
-            <br />
-            {subtitle || "I'm the Unknown Developer."}
+            {title || ''} <span className="text-color-name">{name || 'Your Name'} </span>
+            {subtitle || "I'm a product manager."}
           </h1>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
           <p className="hero-cta">
+            <span className="back-to-top">
+              <Link to="about" smooth duration={1000}>
+                <i className="fa fa-angle-down fa-2x" aria-hidden="false" />
+              </Link>
+            </span>
+            {/* ADDING A BUTTON INSTEAD OF AN ARROW
             <span className="cta-btn cta-btn--hero">
               <Link to="about" smooth duration={1000}>
                 {cta || 'Know more'}
               </Link>
-            </span>
+            </span> */}
           </p>
         </Fade>
       </Container>

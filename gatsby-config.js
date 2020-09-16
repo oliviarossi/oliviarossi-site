@@ -22,8 +22,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Simplefolio`,
-        short_name: `Simplefolio`,
+        name: `Olivia Rossi | Product Manager + Tech Enthusiast`,
+        short_name: `Olivia Rossi`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#02aab0`,
