@@ -3,6 +3,7 @@ import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
+import logo from '../../images/logo.png';
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
@@ -25,26 +26,26 @@ const Header = () => {
     <section id="hero" className="jumbotron">
       <Container>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
+          {/* <div className="logo" title="oliviarossi.org">
+              <img src={logo} alt="logo" />
+            </div> */}
           <h1 className="hero-title">
-            {title || ''} <span className="text-color-name">{name || 'Your Name'} </span>
-            {subtitle || "I'm a product manager."}
+            {title || ''}
+            <span className="text-color-name">{name || ''} </span>
+            {subtitle || ""}
           </h1>
         </Fade>
+        {/* ADDING A CTA BUTTON
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
           <p className="hero-cta">
-            <span className="back-to-top">
-              <Link to="about" smooth duration={1000}>
-                <i className="fa fa-angle-down fa-2x" aria-hidden="false" />
-              </Link>
-            </span>
-            {/* ADDING A BUTTON INSTEAD OF AN ARROW
+            ADDING A BUTTON INSTEAD OF AN ARROW
             <span className="cta-btn cta-btn--hero">
               <Link to="about" smooth duration={1000}>
                 {cta || 'Know more'}
               </Link>
-            </span> */}
+            </span>
           </p>
-        </Fade>
+        </Fade> */}
       </Container>
     </section>
   );

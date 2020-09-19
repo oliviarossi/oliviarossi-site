@@ -2,18 +2,18 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Olivia Rossi',
+  title: 'Olivia Rossi | Product Manager & Lighting Design Specialist',
   lang: 'en',
-  description: 'Product Manager',
+  description: 'oliviarossi.org is the home of Olivia Rossi, an aspiring product manager based in Montreal.',
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: 'Olivia Rossi',
-  subtitle: 'is a product manager, designer, lighting specialist, and so-called engineer based in Montreal.',
-  cta: 'scroll',
-};
+   title: '',
+   name: 'Olivia Rossi',
+   subtitle: 'is a product manager, designer, lighting specialist, self-proclaimed techie, and so-called engineer based in Montreal.',
+   // cta: 'scroll',
+ };
 
 // ABOUT DATA
 export const aboutData = {
