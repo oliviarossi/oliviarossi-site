@@ -3,11 +3,11 @@ import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
-import logo from '../../images/logo.png';
+import LogoImg from '../Image/LogoImg';
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
-  const { title, name, subtitle, cta } = hero;
+  const { img, title, name, subtitle, cta } = hero;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -26,14 +26,14 @@ const Header = () => {
     <section id="hero" className="jumbotron">
       <Container>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-          {/* <div className="logo" title="oliviarossi.org">
-              <img src={logo} alt="logo" />
-            </div> */}
           <h1 className="hero-title">
             {title || ''}
             <span className="text-color-name">{name || ''} </span>
             {subtitle || ""}
           </h1>
+          <div className="hero-title__image">
+            <LogoImg alt="logo" filename={img} />
+          </div>
         </Fade>
         {/* ADDING A CTA BUTTON
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
