@@ -1,5 +1,5 @@
 .footer {
-  background-color: $dark-grey;
+  background-color: $background-color;
   color: $background-color;
   padding: 4.8rem 0;
 
@@ -16,7 +16,7 @@
       font-size: 1.3rem;
       transition: all 0.4s;
       display: inline-block;
-      background-color: $dark-grey;
+      background-color: $background-color;
 
       &:hover,
       &:active {
@@ -45,7 +45,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: $background-color;
+    color: $primary-color;
     font-size: 3rem;
     width: 5rem;
     height: 5rem;

@@ -25,37 +25,29 @@ const About = () => {
     <section id="about">
       <Container>
         <Row className="about-wrapper">
-          <Col md={1} sm={12}>
-            <Title title="About" />
+          <Col md={4} sm={12}>
+            <Title title="About"/>
+            {resume && (
+                <span className="d-flex mt-3">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="cta-btn cta-btn--resume"
+                    href={resume}
+                  >
+                    Resume
+                  </a>
+                </span>
+              )}
           </Col>
-          <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
-            <div className="about-wrapper__info">
-              <Col lg={6} sm={12}>
-                <p className="about-wrapper__info-text">{paragraphOne || ''}</p>
-                <p className="about-wrapper__info-text">{paragraphTwo || ''}</p>
-              </Col>
-              <Col lg={6} sm={12}>
-                <p className="about-wrapper__info-text">{paragraphThree || ''}</p>
-                <p className="about-wrapper__info-text">{paragraphFour || ''}</p>
-              </Col>
-            </div>
-            <Col lg={6} sm={12}>
-              <div className="about-wrapper__info">
-                {resume && (
-                  <span className="d-flex mt-3">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="cta-btn cta-btn--resume"
-                      href={resume}
-                    >
-                      Resume
-                    </a>
-                  </span>
-                )}
-              </div>
-            </Col>
-          </Fade>
+          <Col md={6} sm={12} className="about-wrapper__info">
+            <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
+              <p className="about-wrapper__info-text">{paragraphOne || ''}</p>
+              <p className="about-wrapper__info-text">{paragraphTwo || ''}</p>
+              <p className="about-wrapper__info-text">{paragraphThree || ''}</p>
+              <p className="about-wrapper__info-text">{paragraphFour || ''}</p>
+            </Fade>
+          </Col>
         </Row>
       </Container>
     </section>

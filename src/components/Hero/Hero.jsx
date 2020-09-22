@@ -28,12 +28,12 @@ const Header = () => {
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
           <h1 className="hero-title">
             {title || ''}
-            <span className="text-color-name">{name || ''} </span>
-            {subtitle || ""}
+            <span className="text-colour-subtitle">{name || ''} </span>
+            {subtitle || ''}
           </h1>
-          <div className="hero-title__image">
+          {/* <div className="hero-title__image">
             <LogoImg alt="logo" filename={img} />
-          </div>
+          </div> */}
         </Fade>
         {/* ADDING A CTA BUTTON
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">

@@ -62,7 +62,7 @@ const Projects = () => {
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="cta-btn text-color-name"
+                          className="cta-btn text-colour-subtitle"
                           href={repo}
                         >
                           Source Code
