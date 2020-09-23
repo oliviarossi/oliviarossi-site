@@ -27,18 +27,6 @@ const About = () => {
         <Row className="about-wrapper">
           <Col md={4} sm={12}>
             <Title title="About"/>
-            {resume && (
-                <span className="d-flex mt-3">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="cta-btn cta-btn--resume"
-                    href={resume}
-                  >
-                    Resume
-                  </a>
-                </span>
-              )}
           </Col>
           <Col md={6} sm={12} className="about-wrapper__info">
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">

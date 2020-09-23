@@ -10,11 +10,11 @@ const Footer = () => {
   return (
     <footer className="footer navbar-static-bottom">
       <Container>
-        <span className="back-to-top">
+        {/* <span className="back-to-top">
           <Link to="hero" smooth duration={1000}>
             <i className="fa fa-angle-up fa-2x" aria-hidden="true" />
           </Link>
-        </span>
+        </span> */}
         <div className="social-links">
           {networks &&
             networks.map((network) => {
@@ -27,7 +27,7 @@ const Footer = () => {
                   target="_blank"
                   aria-label={name}
                 >
-                  <i className={`fa fa-${name || 'refresh'} fa-inverse`} />
+                  {name}
                 </a>
               );
             })}
@@ -40,7 +40,7 @@ const Footer = () => {
             </a> and powered by {''}
             <a href="https://www.netlify.com/" target="_blank" rel="noopener noreferrer">
               Netifly
-            </a>
+            </a>. Last updated September 2020.
         </p>
       </Container>
     </footer>
