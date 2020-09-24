@@ -6,7 +6,7 @@ import Title from '../Title/Title';
 
 const Contact = () => {
   const { contact } = useContext(PortfolioContext);
-  const { cta, btn, email, resume } = contact;
+  const { cta, btn, email, resume, networks } = contact;
 
   return (
     <section id="contact">
@@ -14,25 +14,42 @@ const Contact = () => {
         <Title title="Get in touch" />
         <Fade bottom duration={1000} delay={800} distance="30px">
           <div className="contact-wrapper">
-            {/* <p className="contact-wrapper__text">
+            <div className="social-links">
+              {/* <p className="contact-wrapper__text">
               {cta || ''}
             </p> */}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              className="cta-btn cta-btn--resume"
-              href={email ? `mailto:${email}` : 'https://github.com/cobidev/react-simplefolio'}
-            >
-              {btn}
-            </a>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              className="cta-btn cta-btn--resume"
-              href={resume}
-            >
-              resume
-            </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                // className="cta-btn cta-btn--resume"
+                href={email ? `mailto:${email}` : 'https://github.com/cobidev/react-simplefolio'}
+              >
+                {btn}
+              </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                // className="cta-btn cta-btn--resume"
+                href={resume}
+              >
+                resume
+              </a>
+              {networks &&
+                networks.map((network) => {
+                  const { id, name, url } = network;
+                  return (
+                    <a
+                      key={id}
+                      href={url || 'https://github.com/oliviarossi/oliviarossi-site'}
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      aria-label={name}
+                    >
+                      {name}
+                    </a>
+                  );
+                })}
+            </div>
           </div>
         </Fade>
       </Container>

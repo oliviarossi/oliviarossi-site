@@ -37,28 +37,6 @@
   }
 }
 
-.social-links {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-
-  a {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: $primary-color;
-    font-size: 2rem;
-    // width: 3rem;
-    // height: 3rem;
-    margin: $default-font-size $default-font-size;
-    transition: all 0.2s ease-in;
-
-    &:hover {
-      text-decoration: underline;;
-    }
-  }
-}
-
 // .back-to-top i {
 //   color: $background-color;
 //   margin: 1rem 0 $default-font-size;

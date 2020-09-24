@@ -51,11 +51,7 @@ export const contactData = {
   cta: '',
   btn: 'email',
   email: 'oliviarossi@pm.me',
-  resume: 'https://www.notion.so/oliviarossi/Olivia-Rossi-24dadad53b1c470180680a387b08d759'
-};
-
-// FOOTER DATA
-export const footerData = {
+  resume: 'https://www.notion.so/oliviarossi/Olivia-Rossi-24dadad53b1c470180680a387b08d759',
   networks: [
     {
       id: nanoid(),

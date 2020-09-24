@@ -22,7 +22,6 @@ function App() {
     setAbout({ ...aboutData });
     // setProjects([...projectsData]);
     setContact({ ...contactData });
-    setFooter({ ...footerData });
   }, []);
 
   // add projects to portfolio provider
