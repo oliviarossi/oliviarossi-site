@@ -6,15 +6,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/main.scss';
 
 export default () => {
-  const { title, lang, description } = headData;
 
   return (
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>{title || 'Olivia Rossi'}</title>
-        <html lang={lang || 'en'} />
-        <meta name="description" content={description || 'Olivia Rossi'} />
+        <title>Olivia Rossi | Product Manager & Lighting Design Specialist</title>
+        <html lang="en" />
+        <meta name="description" content="oliviarossi.org is the home of Olivia Rossi, an aspiring product manager based in Montreal" />
       </Helmet>
       <App />
     </>

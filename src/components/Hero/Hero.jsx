@@ -7,7 +7,6 @@ import LogoImg from '../Image/LogoImg';
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
-  const { img, title, name, subtitle, cta } = hero;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -26,26 +25,13 @@ const Header = () => {
     <section id="hero" className="jumbotron">
       <Container>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-          <h1 className="hero-title">
-            {title || ''}
-            <span className="text-colour-subtitle">{name || ''} </span>
-            {subtitle || ''}
-          </h1>
-          {/* <div className="hero-title__image">
+          <h1 className="hero-h1">Olivia Rossi is a <strong>doer</strong>. Based in Montreal, she wears multiple hats: designer, engineer, lighting specialist, product leader, and a self-proclaimed techie.</h1>
+          <h1 className="hero-h1">She aspires to one day become a product manager in an innovative consumer-centric company. She is passionate about the ethics of technology and an avid supporter of women in tech.</h1>
+          <p className="hero-micro">Job opportunities are welcome; looking for a full-time position in a small to medium sized startup/company.</p>
+          {/* <div className="hero-h1__image">
             <LogoImg alt="logo" filename={img} />
           </div> */}
         </Fade>
-        {/* ADDING A CTA BUTTON
-        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
-          <p className="hero-cta">
-            ADDING A BUTTON INSTEAD OF AN ARROW
-            <span className="cta-btn cta-btn--hero">
-              <Link to="about" smooth duration={1000}>
-                {cta || 'Know more'}
-              </Link>
-            </span>
-          </p>
-        </Fade> */}
       </Container>
     </section>
   );

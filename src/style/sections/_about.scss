@@ -28,7 +28,7 @@
       }
 
       &-text {
-        text-align: justify;
+        text-align: left;
 
         @include respond(tab-port) {
           font-size: 1.5rem;
