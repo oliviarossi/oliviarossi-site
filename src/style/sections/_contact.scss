@@ -37,6 +37,12 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
+
+  @include respond(phone) {
+    font-size: 1rem;
+    align-items: center;
+  }
 
   a {
     display: flex;
@@ -51,7 +57,7 @@
 
     &:hover {
       text-decoration: none;
-      border-radius: 3px;
+      // border-radius: 3px;
       color: $secondary-color;
     }
   }
