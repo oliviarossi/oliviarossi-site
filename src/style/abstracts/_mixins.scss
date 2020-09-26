@@ -9,7 +9,7 @@
 
 1em = 16px
 
-ORDER: Base + Typography > Generar Layout + Grid > Page Layout > Components
+ORDER: Base + Typography > General Layout + Grid > Page Layout > Components
 
 */
 @mixin respond($breakpoint) {
@@ -47,7 +47,7 @@ ORDER: Base + Typography > Generar Layout + Grid > Page Layout > Components
 
 // Border White Mixin
 @mixin section-borders {
-  border: 1.5rem solid #fff;
+  border: 1rem solid #fff;
   border-top: 0;
   border-bottom: 0;
 }

@@ -31,5 +31,14 @@ module.exports = {
         icon: 'src/images/logo.png',
       },
     },
+    {
+      resolve: `gatsby-plugin-mailgo`,
+      options: {
+        mailgoConfig: {
+          dark: false,
+          showFooter: false,
+        },
+      },
+    },
   ],
 };

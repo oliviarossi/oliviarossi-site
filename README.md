@@ -3,10 +3,15 @@
 Welcome to the repo for [oliviarossi.org](https://oliviarossi.org). 
 
 This website was built using [Gatsby.js](https://www.gatsbyjs.com/) and is powered by [Netifly](https://www.netlify.com/).
+
 Thank you to [Jacob Martinez](https://github.com/cobidev) for the starter template [Simplefolio](https://github.com/cobidev/gatsby-simplefolio).
+
+Another thank you to [Matteo Manzinello](https://matteomanzinello.com/) for the [Gatsby mailgo.dev plugin](https://www.gatsbyjs.com/plugins/gatsby-plugin-mailgo/).
 
 
 **_UNDER CONSTRUCTION_**
+
+
 
 
 ---
