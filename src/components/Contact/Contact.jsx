@@ -14,7 +14,7 @@ const Contact = () => {
         <Title title="Get in touch" />
         <Fade bottom duration={1000} delay={800} distance="30px">
           <div className="contact-wrapper">
-          <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/oliviarossi/letschat'});return false;">let's chat</a>
+          <a href="https://calendly.com/oliviarossi/letschat">let's chat</a>
             <div className="social-links">
               {/* <p className="contact-wrapper__text">
               {cta || ''}
