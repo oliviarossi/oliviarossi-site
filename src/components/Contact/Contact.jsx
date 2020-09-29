@@ -14,42 +14,49 @@ const Contact = () => {
         <Title title="Get in touch" />
         <Fade bottom duration={1000} delay={800} distance="30px">
           <div className="contact-wrapper">
-          <a href="https://calendly.com/oliviarossi/letschat">let's chat</a>
             <div className="social-links">
-              {/* <p className="contact-wrapper__text">
-              {cta || ''}
-            </p> */}
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                // className="cta-btn cta-btn--resume"
-                href={email ? `mailto:${email}` : 'https://github.com/cobidev/react-simplefolio'}
+                href={'mailto:hello@oliviarossi.org'}
+                aria-label="email"
               >
-                {btn}
+                email
               </a>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                // className="cta-btn cta-btn--resume"
-                href={resume}
+                href={
+                  'https://www.notion.so/oliviarossi/Olivia-Rossi-24dadad53b1c470180680a387b08d759'
+                }
+                aria-label="resume"
               >
                 resume
               </a>
-              {networks &&
-                networks.map((network) => {
-                  const { id, name, url } = network;
-                  return (
-                    <a
-                      key={id}
-                      href={url || 'https://github.com/oliviarossi/oliviarossi-site'}
-                      rel="noopener noreferrer"
-                      target="_blank"
-                      aria-label={name}
-                    >
-                      {name}
-                    </a>
-                  );
-                })}
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href={'https://twitter.com/_oliviarossi'}
+                aria-label="twitter"
+              >
+                twitter
+              </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href={'https://www.linkedin.com/in/rossiolivia/'}
+                aria-label="linkedin"
+              >
+                linkedin
+              </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href={'https://github.com/oliviarossi'}
+                aria-label="twitter"
+              >
+                github
+              </a>
             </div>
           </div>
         </Fade>

@@ -24,10 +24,26 @@ const Header = () => {
   return (
     <section id="hero" className="jumbotron">
       <Container>
+        <h1 className="hero-h1">
+          Hey, I'm Olivia. I'm a <span>lighting</span> designer and an aspiring product manager
+          based in Montreal.
+        </h1>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-          <h1 className="hero-h1">Olivia Rossi is a <strong>doer</strong>. Based in Montreal, she wears multiple hats: designer, engineer, lighting specialist, product leader, and a self-proclaimed techie.</h1>
-          <h1 className="hero-h1">She aspires to one day become a product manager in an innovative consumer-centric company. She is passionate about the ethics of technology and an avid supporter of women in tech.</h1>
-          <p className="hero-micro">Job opportunities are welcome; looking for a full-time position in a small to medium sized startup/company.</p>
+          <h1 className="hero-h2">
+            In reality, I wear multiple hats—every day is different. I constantly alternate between
+            designer, engineer, lighting specialist, and product leader. <br />
+            <br />
+            My goal is to one day become a product manager in an innovative consumer-centric
+            company. As a self-proclaimed techie, I am passionate about the ethics of technology and
+            an avid supporter of women in tech.
+          </h1>
+          <h1 className="hero-link">
+            <a href="https://calendly.com/oliviarossi/letschat">Let's chat.</a>
+          </h1>
+          <p className="hero-micro">
+            Job opportunities are welcome; looking for a full-time position in a small to medium
+            sized startup/company.
+          </p>
           {/* <div className="hero-h1__image">
             <LogoImg alt="logo" filename={img} />
           </div> */}

@@ -9,12 +9,13 @@
 
   &__text {
     color: darken(white, 50%);
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     margin-top: 10rem;
+    text-align: center;
 
     a {
       color: darken(white, 50%);
-      font-size: 0.8rem;
+      font-size: 0.75rem;
       transition: all 0.4s;
       display: inline-block;
       background-color: $background-color;
