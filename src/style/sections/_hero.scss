@@ -1,9 +1,10 @@
 #hero {
   display: flex;
   align-items: flex-start;
-  min-height: 100vh;
+  min-height: 100%;
   width: 100%;
   margin: 0px auto;
+  padding: 0px auto;
   border-bottom: 0px;
   background: $background-color;
   top: 0;
@@ -11,9 +12,10 @@
   bottom: 0;
   right: 0;
   z-index: 10;
+  position: relative;
 
   @include respond(phone) {
-    padding: 0rem $default-font-size;
+    padding-top: 3rem;
   }
 
   .hero-h1 {
@@ -87,15 +89,18 @@
   }
 
   .hero-link {
+    font-size: 1.5rem;
+    
     a {
       font-size: 1.5rem;
       color: $text-colour;
       font-weight: 400;
       text-align: left;
+      text-decoration: underline;
 
       &:hover {
         text-decoration: none;
-        color: $secondary-color;
+        //color: $secondary-color;
       }
     }
   }

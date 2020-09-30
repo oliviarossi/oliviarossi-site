@@ -38,7 +38,7 @@ const Header = () => {
             an avid supporter of women in tech.
           </h1>
           <h1 className="hero-link">
-            <a href="https://calendly.com/oliviarossi/letschat">Let's chat.</a>
+          👋🏻 <a href="https://calendly.com/oliviarossi/letschat">Let's chat</a>
           </h1>
           <p className="hero-micro">
             Job opportunities are welcome; looking for a full-time position in a small to medium

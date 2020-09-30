@@ -11,7 +11,7 @@ const Contact = () => {
   return (
     <section id="contact">
       <Container>
-        <Title title="Get in touch" />
+        <Title title="Get in touch 👇🏻" />
         <Fade bottom duration={1000} delay={800} distance="30px">
           <div className="contact-wrapper">
             <div className="social-links">
