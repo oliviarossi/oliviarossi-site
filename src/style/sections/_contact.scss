@@ -1,14 +1,12 @@
 #contact {
-  padding: 1rem 0 1rem 0;
+  padding: 6rem 0;
   margin: 0px auto;
-  //margin-bottom: -1px;
   color: $background-color;
 
   @include respond(tab-land) {
     padding: 3rem 0;
     clip-path: none;
     margin-top: 0;
-    -webkit-clip-path: none;
   }
 
   .contact-wrapper {
@@ -18,7 +16,7 @@
 
     &__text {
       margin-bottom: 2rem;
-      color: $text-colour;
+      color: $text-color;
     }
 
     &__text,
@@ -49,7 +47,7 @@
     flex-direction: column;
     justify-content: center;
     color: $primary-color;
-    font-size: 1rem;
+    font-size: $default-font-size;
     // width: 3rem;
     // height: 3rem;
     margin: $default-font-size $default-font-size;
@@ -58,7 +56,7 @@
     &:hover {
       text-decoration: none;
       // border-radius: 3px;
-      color: $secondary-color;
+      color: $accent-color;
     }
   }
 }

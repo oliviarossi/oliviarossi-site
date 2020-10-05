@@ -62,7 +62,7 @@
 //                         <a
 //                           target="_blank"
 //                           rel="noopener noreferrer"
-//                           className="cta-btn text-colour-subtitle"
+//                           className="cta-btn text-color-subtitle"
 //                           href={repo}
 //                         >
 //                           Source Code
