@@ -1,0 +1,23 @@
+#layout {
+  padding: 0px auto;
+
+  @include respond(tab-land) {
+    height: 100%;
+    -webkit-clip-path: none;
+    clip-path: none;
+  }
+
+  .hero-head {
+    padding-left: 1rem 0rem 0rem 1rem;
+    line-height: 90%;
+
+    a {
+     font-size: $huge-font-size;
+      color: $background-color;
+
+      &:hover {
+        color: $accent-color;
+      }
+    }
+  }
+}

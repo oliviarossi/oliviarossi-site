@@ -1,0 +1,67 @@
+#about {
+  background-color: $primary-color;
+  color: $background-color;
+  //   height: 100vh;
+  //   width: 100vw;
+
+  @include respond(tab-land) {
+    height: 100%;
+    -webkit-clip-path: none;
+    clip-path: none;
+  }
+
+  .about-wrapper {
+    padding-top: 3rem;
+
+    @include respond(phone) {
+      padding-top: 4rem;
+    }
+
+    &__title {
+      font-size: $big-font-size;
+      color: $background-color;
+      border-top: 3px solid $background-color;
+      padding-top: 0.5rem;
+
+      @include respond(phone) {
+        font-size: $big-font-size;
+      }
+    }
+
+    &__info {
+      display: flex;
+      height: 100%;
+      justify-content: center;
+      flex-direction: column;
+      flex-wrap: wrap;
+
+      @include respond(phone) {
+        align-items: left;
+      }
+
+      &-text {
+        text-align: left;
+
+        @include respond(tab-port) {
+          font-size: $default-font-size;
+        }
+        @include respond(phone) {
+          font-size: $default-font-size;
+        }
+
+        & a {
+          padding-top: 1rem;
+          color: $background-color;
+          border-bottom: 1px solid $muted-color;
+
+          &:hover {
+            border-bottom: none;
+          }
+        }
+        span {
+          color: $muted-color;
+        }
+      }
+    }
+  }
+}

@@ -17,7 +17,7 @@ export default () => {
         <html lang="en" />
         <meta name="description" content="Page not found" />
       </Helmet>
-      <section id="hero" className="jumbotron">
+      <section id="hero">
         <Container>
           <Fade bottom duration={1000} delay={500} distance="30px">
             <h1 className="hero-h1 text-center">

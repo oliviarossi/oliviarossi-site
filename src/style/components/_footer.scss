@@ -1,0 +1,37 @@
+.footer {
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  padding-right: 1rem;
+  width: 100%;
+  position: fixed;
+
+  @include respond(phone) {
+    border: 0px;
+  }
+
+  &__text {
+    color: $muted-color;
+    font-size: $small-font-size;
+    text-align: right;
+  }
+}
+//   & hr {
+//     margin-top: 1rem;
+//     margin-bottom: 1rem;
+//     border: 0;
+//     width: 50%;
+//     border-top: 0.75px solid $muted-color;
+//   }
+// }
+
+// .back-to-top i {
+//   color: $background-color;
+//   margin: 1rem 0 $default-font-size;
+//   transition: all 0.2s ease-in;
+//   cursor: pointer;
+
+//   &:hover {
+//     transform: translateY(-2px);
+//   }
+// }

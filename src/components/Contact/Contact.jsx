@@ -2,7 +2,6 @@ import React, { useContext } from 'react';
 import Fade from 'react-reveal/Fade';
 import { Container } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
-import Title from '../Title/Title';
 
 const Contact = () => {
   const { contact } = useContext(PortfolioContext);
@@ -10,10 +9,7 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <Container>
-        <Title title="Get in touch 👇🏻" />
         <Fade bottom duration={1000} delay={800} distance="30px">
-          <div className="contact-wrapper">
             <div className="social-links">
               <a
                 target="_blank"
@@ -22,18 +18,7 @@ const Contact = () => {
                 aria-label="email"
               >
                 email
-              </a>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href={
-                  'https://www.notion.so/oliviarossi/Olivia-Rossi-24dadad53b1c470180680a387b08d759'
-                }
-                aria-label="resume"
-              >
-                resume
-              </a>
-              <a
+              </a> <a
                 target="_blank"
                 rel="noopener noreferrer"
                 href={'https://twitter.com/_oliviarossi'}
@@ -58,9 +43,7 @@ const Contact = () => {
                 github
               </a>
             </div>
-          </div>
         </Fade>
-      </Container>
     </section>
   );
 };

@@ -6,11 +6,11 @@
 @import './base/typography';
 
 @import './components/buttons';
+@import './components/layout';
+@import './components/footer';
+@import './components/sections';
 
-@import './layout/footer';
-@import './layout/sections';
-
-// @import './sections/about';
-@import './sections/contact';
-@import './sections/hero';
+@import './pages/about';
+@import './pages/contact';
+@import './pages/hero';
 // @import './sections/projects';

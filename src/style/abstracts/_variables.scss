@@ -6,11 +6,11 @@ $primary-color: #002fa7;
 $secondary-color: #F9D423;
 
 $accent-color: #FF0000;
-$highlight-color: #00e5ee;
-$muted-color: #b2b2b2;
+$highlight-color: #FF0000;
+$muted-color: lighten($text-color, 50%);
 
 // FONT SIZE
 $small-font-size: 0.75rem;
 $default-font-size: 1rem;
 $big-font-size: 1.5rem;
-$huge-font-size: 4rem;
+$huge-font-size: 6rem;
