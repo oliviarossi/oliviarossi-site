@@ -58,9 +58,14 @@
   .hero-p {
     color: $primary-color;
     font-size: 2rem;
-    padding-left: 5px;
+    //padding-left: 5px;
     line-height: 90%;
-    padding-top: 4rem;
+    // padding-top: 4rem;
+    bottom: 0;
+    left: 0;
+    padding-left: 1rem;
+    width: 100%;
+    position: absolute;
 
     & a {
       color: $primary-color;

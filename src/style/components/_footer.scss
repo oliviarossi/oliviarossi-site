@@ -1,10 +1,9 @@
 .footer {
   bottom: 0;
   right: 0;
-  position: absolute;
   padding-right: 1rem;
   width: 100%;
-  position: fixed;
+  position: absolute;
 
   @include respond(phone) {
     border: 0px;

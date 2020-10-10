@@ -2,8 +2,8 @@ import React, { useContext, useState, useEffect } from 'react';
 import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'gatsby';
-import PortfolioContext from '../../context/context';
-import Layout from '../layout';
+import PortfolioContext from './context';
+import Layout from './layout';
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
@@ -32,14 +32,8 @@ const Header = () => {
             <br />
             Based in Montreal
             </h1>
-            <p className="hero-p">Hey 👋🏻 Let's{' '}
-            <a
-              href="https://calendly.com/oliviarossi/letschat"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              chat
-            </a>.{' '}<br />Here's some{' '}
+            <p className="hero-p">Get in{' '}
+            <Link to="/contact">touch</Link>.{' '}<br />Here's some{' '}
             <Link to="/about">information</Link>.
             </p>
         </Fade>

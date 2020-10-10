@@ -1,23 +1,23 @@
 import React, { useState, useEffect } from 'react';
-import Hero from './Hero/Hero';
+import Hero from './Hero';
 // import Projects from './Projects/Projects';
-import Contact from './Contact/Contact';
-import Footer from './Footer/Footer';
+//import Contact from './Contact';
+import Footer from './Footer';
 
-import { PortfolioProvider } from '../context/context';
+import { PortfolioProvider } from './context';
 
 function App() {
   const [hero, setHero] = useState({});
   // const [projects, setProjects] = useState([]);
-  const [contact, setContact] = useState({});
+  //const [contact, setContact] = useState({});
   const [footer, setFooter] = useState({});
 
   // add about, projects to portfolio provider
   return (
-    <PortfolioProvider value={{ hero, contact, footer }}>
+    <PortfolioProvider value={{ hero, footer }}>
       <Hero />
       {/* <Projects /> */}
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </PortfolioProvider>
   );

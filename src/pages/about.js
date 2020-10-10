@@ -30,6 +30,7 @@ const About = () => {
       <section id="about">
         <Layout>
           <Container>
+            {/* <-- about --> */}
             <Row className="about-wrapper">
               <Col md={4} sm={12}>
                 <Fade top={isDesktop} bottom={isMobile} duration={500} distance="30px">
@@ -70,10 +71,8 @@ const About = () => {
                     creative ideas to life.
                   </p>
                   <p className="about-wrapper__info-text">
-                    <span>
                       Job opportunities are welcome; looking for a full-time position in a small to
                       medium sized startup/company.
-                    </span>
                     <br />
                     <br /> You can reach me at{' '}
                     <a
@@ -100,6 +99,22 @@ const About = () => {
                 </Fade>
               </Col>
             </Row>
+            {/* <-- Experience --> */}
+            <Row className="about-wrapper">
+              <Col md={4} sm={12}>
+                <Fade top={isDesktop} bottom={isMobile} duration={500} distance="30px">
+                  <h2 className="about-wrapper__title">Experience</h2>
+                </Fade>
+              </Col>
+              <Col md={6} sm={12} className="about-wrapper__info">
+                <Fade left={isDesktop} bottom={isMobile} duration={500} distance="30px">
+                  <p className="about-wrapper__info-text">
+                    blablabla
+                  </p>
+                </Fade>
+              </Col>
+            </Row>
+            {/* <-- colophon --> */}
             <Row className="about-wrapper">
               <Col md={4} sm={12}>
                 <Fade top={isDesktop} bottom={isMobile} duration={500} distance="30px">
