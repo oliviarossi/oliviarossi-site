@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 import { Link } from 'gatsby';
 import PortfolioContext from './context';
 import Layout from './layout';
-import Contact from '../pages/contact';
+import Contact from './Contact';
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);

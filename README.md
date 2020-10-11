@@ -9,10 +9,6 @@ Thank you to [Jacob Martinez](https://github.com/cobidev) for the starter templa
 Another thank you to [Matteo Manzinello](https://matteomanzinello.com/) for the [Gatsby mailgo.dev plugin](https://www.gatsbyjs.com/plugins/gatsby-plugin-mailgo/).
 
 
-**_UNDER CONSTRUCTION_**
-
-
-
 
 ---
 

@@ -63,7 +63,7 @@ const About = () => {
                     requirements, coordinate large-scale lighting projects, and follow best
                     practices to exceed client expectations. I actually wear multiple hats—every day
                     is different. I constantly alternate between designer, engineer, lighting
-                    specialist, team lead, (front-end dev), and product leader.
+                    specialist, team lead, <span>front-end dev</span>, and product leader.
                   </p>
                   <p className="about-wrapper__info-text">
                     I am forever curious and seeking new challenges in a product role in the tech
@@ -99,7 +99,7 @@ const About = () => {
                 </Fade>
               </Col>
             </Row>
-            {/* <-- Experience --> */}
+            {/* <-- Quick Facts --> */}
             <Row className="about-wrapper">
               <Col md={4} sm={12}>
                 <Fade top={isDesktop} bottom={isMobile} duration={500} distance="30px">
@@ -111,7 +111,7 @@ const About = () => {
                   <p className="about-wrapper__info-text-list">
                    <li>Studied Mechanical Engineering with a specialization in 3D Design and
                     Manufacturing</li>
-                    <li> Published a research article on the benefits and environmental potential
+                    <li> Published a <a href="https://www.emerald.com/insight/content/doi/10.1108/IJESM-10-2018-0009/full/html">research article</a> on the benefits and environmental potential
                     of microreactors</li>
                     <li> Worked in security, administration, law, human resources, and aerospace
                     engineering</li>

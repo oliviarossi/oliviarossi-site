@@ -1,15 +1,13 @@
+@import './abstracts/helpers';
 @import './abstracts/mixins';
 @import './abstracts/variables';
-@import './abstracts/helpers';
 
 @import './base/base';
 @import './base/typography';
 
-@import './components/buttons';
-@import './components/layout';
+@import './components/contact';
 @import './components/footer';
-@import './components/sections';
+@import './components/layout';
 
 @import './pages/about';
-@import './pages/contact';
 @import './pages/hero';
