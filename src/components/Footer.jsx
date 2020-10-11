@@ -10,7 +10,7 @@ const Footer = () => {
     <footer className="footer navbar-static-bottom">
       {/* <hr /> */}
       <p className="footer__text">{new Date().getFullYear()} © Olivia Rossi</p>
-    </footer>
+</footer>
   );
 };
 

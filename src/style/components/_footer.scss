@@ -1,7 +1,7 @@
 .footer {
   bottom: 0;
   right: 0;
-  padding-right: 1rem;
+  padding-left: 1rem;
   width: 100%;
   position: absolute;
 
@@ -12,7 +12,7 @@
   &__text {
     color: $muted-color;
     font-size: $small-font-size;
-    text-align: right;
+    //text-align: right;
   }
 }
 //   & hr {

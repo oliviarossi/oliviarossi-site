@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { Component, useState, useEffect } from 'react';
 import Hero from './Hero';
 //import Contact from './Contact';
 import Footer from './Footer';

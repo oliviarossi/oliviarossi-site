@@ -71,19 +71,19 @@ const About = () => {
                     creative ideas to life.
                   </p>
                   <p className="about-wrapper__info-text">
-                      Job opportunities are welcome; looking for a full-time position in a small to
-                      medium sized startup/company.
-                    <br />
-                    <br /> You can reach me at{' '}
+                    Job opportunities are welcome; looking for a full-time position in a small to
+                    medium sized tech startup/company.
+                  </p>
+                  <p className="about-wrapper__info-text">
+                    You can{' '}
                     <a
+                      href="https://calendly.com/oliviarossi/letschat"
                       target="_blank"
                       rel="noopener noreferrer"
-                      href={'mailto:hello@oliviarossi.org'}
-                      aria-label="email"
                     >
-                      hello@oliviarossi.org
+                      book some time
                     </a>{' '}
-                    or view my resume{' '}
+                    with me or view my resume{' '}
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
@@ -103,13 +103,20 @@ const About = () => {
             <Row className="about-wrapper">
               <Col md={4} sm={12}>
                 <Fade top={isDesktop} bottom={isMobile} duration={500} distance="30px">
-                  <h2 className="about-wrapper__title">Experience</h2>
+                  <h2 className="about-wrapper__title">Quick Facts</h2>
                 </Fade>
               </Col>
               <Col md={6} sm={12} className="about-wrapper__info">
                 <Fade left={isDesktop} bottom={isMobile} duration={500} distance="30px">
                   <p className="about-wrapper__info-text">
-                    blablabla
+                    • Studied Mechanical Engineering with a specialization in 3D Design and
+                    Manufacturing
+                    <br />• Published a research article on the benefits and environmental potential
+                    of microreactors
+                    <br />• Worked in security, administration, law, human resources, and aerospace
+                    engineering
+                    <br />• Originally wanted to be an astrophysicist, but decided to pursue product
+                    management after realizing that my interests lie in up and coming technologies
                   </p>
                 </Fade>
               </Col>
@@ -141,6 +148,9 @@ const About = () => {
                       Inter
                     </a>
                     . Last updated October 2020.
+                    <br />
+                    <br />
+                    <br />
                   </p>
                 </Fade>
               </Col>

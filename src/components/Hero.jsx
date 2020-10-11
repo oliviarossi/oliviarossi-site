@@ -4,6 +4,7 @@ import Fade from 'react-reveal/Fade';
 import { Link } from 'gatsby';
 import PortfolioContext from './context';
 import Layout from './layout';
+import Contact from '../pages/contact';
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
@@ -24,19 +25,14 @@ const Header = () => {
   return (
     <section id="hero">
       <Layout>
-        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
           <h1 className="hero-h1">
             Design supervisor
             <br />
             Aspiring product manager
             <br />
-            Based in Montreal
-            </h1>
-            <p className="hero-p">Get in{' '}
-            <Link to="/contact">touch</Link>.{' '}<br />Here's some{' '}
-            <Link to="/about">information</Link>.
-            </p>
-        </Fade>
+            Based in Montreal, currently @ <a href="realtermenergy.com">RTE</a>
+          </h1>
+          <Contact />
       </Layout>
     </section>
   );
