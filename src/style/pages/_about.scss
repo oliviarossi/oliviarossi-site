@@ -56,8 +56,33 @@
             border-bottom: none;
           }
         }
-        span {
-          color: $muted-color;
+
+        &-list {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+
+          li {
+            padding-left: 1.5rem;
+            text-indent: -1.5rem;
+            padding-bottom: 0.5rem;
+          }
+        
+          li:nth-child(3n+1)::before {
+            content: "🔧 ";
+          }
+        
+          li:nth-child(3n+2)::before {
+            content: "🔬 ";
+          }
+
+          li:nth-child(3n)::before {
+            content: "👩🏻‍🔬 ";
+          }
+
+          li:nth-child(3n+4)::before {
+              content: "🚀 ";
+          }
         }
       }
     }

@@ -108,15 +108,15 @@ const About = () => {
               </Col>
               <Col md={6} sm={12} className="about-wrapper__info">
                 <Fade left={isDesktop} bottom={isMobile} duration={500} distance="30px">
-                  <p className="about-wrapper__info-text">
-                    • Studied Mechanical Engineering with a specialization in 3D Design and
-                    Manufacturing
-                    <br />• Published a research article on the benefits and environmental potential
-                    of microreactors
-                    <br />• Worked in security, administration, law, human resources, and aerospace
-                    engineering
-                    <br />• Originally wanted to be an astrophysicist, but decided to pursue product
-                    management after realizing that my interests lie in up and coming technologies
+                  <p className="about-wrapper__info-text-list">
+                   <li>Studied Mechanical Engineering with a specialization in 3D Design and
+                    Manufacturing</li>
+                    <li> Published a research article on the benefits and environmental potential
+                    of microreactors</li>
+                    <li> Worked in security, administration, law, human resources, and aerospace
+                    engineering</li>
+                    <li> Originally wanted to be an astrophysicist, but decided to pursue product
+                    management after realizing that my interests lie in up and coming technologies</li>
                   </p>
                 </Fade>
               </Col>
