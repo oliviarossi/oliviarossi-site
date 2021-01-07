@@ -27,7 +27,7 @@ const Contact = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href={'mailto:hello@oliviarossi.org'}
+              href={'mailto:hello@oliviarossi.me'}
               aria-label="email"
             >
               email
@@ -35,7 +35,7 @@ const Contact = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href={'https://twitter.com/_oliviarossi'}
+              href={'https://twitter.com/olirossi'}
               aria-label="twitter"
             >
               twitter
@@ -43,7 +43,7 @@ const Contact = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href={'https://www.linkedin.com/in/rossiolivia/'}
+              href={'https://www.linkedin.com/in/olirossi/'}
               aria-label="linkedin"
             >
               linkedin

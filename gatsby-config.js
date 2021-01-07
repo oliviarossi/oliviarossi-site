@@ -23,7 +23,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Olivia Rossi | Product Manager + Tech Enthusiast`,
+        name: `Olivia Rossi | Product Manager + Design Supervisor`,
         short_name: `Olivia Rossi`,
         start_url: `/`,
         background_color: `#fff`,
