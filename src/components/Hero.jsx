@@ -25,14 +25,14 @@ const Header = () => {
   return (
     <section id="hero">
       <Layout>
-          <h1 className="hero-h1">
-            Design supervisor
-            <br />
-            Aspiring product manager
-            <br />
-            Based in Montreal, currently @ <a href="realtermenergy.com">RTE</a>
-          </h1>
-          <Contact />
+        <h1 className="hero-h1">
+          Product Manager based in Montreal
+          <br />
+          Currently @ <a href="https://www.embrase.com/">Embrase</a>, the team behind{' '}
+          <a href="https://startupfestival.com/">Startupfest</a> and{' '}
+          <a href="https://fwd50.com/">FWD50</a>
+        </h1>
+        <Contact />
       </Layout>
     </section>
   );

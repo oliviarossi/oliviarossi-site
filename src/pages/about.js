@@ -59,11 +59,15 @@ const About = () => {
                     in Product.
                   </p>
                   <p className="about-wrapper__info-text">
-                    Currently, I lead the Lighting Design team at RTE. I gather feedback and outline
+                    Recently, I lead the Lighting Design team at RTE. I gather feedback and outline
                     requirements, coordinate large-scale lighting projects, and follow best
                     practices to exceed client expectations. I actually wear multiple hats—every day
                     is different. I constantly alternate between designer, engineer, lighting
-                    specialist, team lead, <span>front-end dev</span>, and product leader.
+                    specialist, team lead, and <span>front-end dev</span>.
+                  </p>
+                  <p className="about-wrapper__info-text">
+                    Curerntly, I am a product manager at Embrase, the organization behind
+                    international tech conferences such as Startupfest and FWD50.
                   </p>
                   <p className="about-wrapper__info-text">
                     I am forever curious and seeking new challenges in a product role in the tech
@@ -71,8 +75,7 @@ const About = () => {
                     creative ideas to life.
                   </p>
                   <p className="about-wrapper__info-text">
-                    Job opportunities are welcome; looking for a full-time position in a small to
-                    medium sized tech startup/company.
+                    I am not open for new oppurtunities at this time.
                   </p>
                   <p className="about-wrapper__info-text">
                     You can{' '}
@@ -109,7 +112,7 @@ const About = () => {
               <Col md={6} sm={12} className="about-wrapper__info">
                 <Fade left={isDesktop} bottom={isMobile} duration={500} distance="30px">
                   <p className="about-wrapper__info-text-list">
-                   <li>Studied Mechanical Engineering with a specialization in 3D Design and
+                    <li>Studied Mechanical Engineering with a specialization in 3D Design and
                     Manufacturing</li>
                     <li> Published a <a href="https://www.emerald.com/insight/content/doi/10.1108/IJESM-10-2018-0009/full/html">research article</a> on the benefits and environmental potential
                     of microreactors</li>

@@ -10,9 +10,9 @@ export default () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Olivia Rossi | Product Manager & Design Supervisor</title>
+        <title>Olivia Rossi | Product Manager</title>
         <html lang="en" />
-        <meta name="description" content="oliviarossi.org is the home of Olivia Rossi, an aspiring product manager based in Montreal" />
+        <meta name="description" content="oliviarossi.org is the home of Olivia Rossi, a product manager based in Montreal" />
       </Helmet>
       <App />
     </>
