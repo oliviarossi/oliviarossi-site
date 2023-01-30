@@ -1,4 +1,4 @@
-# Olivia Rossi's Personal Website
+# Olivia Rossi's Personal Website [archived]
 
 Welcome to the repo for [oliviarossi.org](https://oliviarossi.org). 
 
